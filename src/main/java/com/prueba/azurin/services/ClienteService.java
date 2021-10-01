@@ -1,4 +1,4 @@
-package com.prueba.azurin.services.impl;
+package com.prueba.azurin.services;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import com.prueba.azurin.entity.Cliente;
 import com.prueba.azurin.entity.Comuna;
+import com.prueba.azurin.iservices.IClienteService;
 import com.prueba.azurin.repository.IClienteRepository;
-import com.prueba.azurin.services.IClienteService;
 
 @Service
 public class ClienteService implements IClienteService {

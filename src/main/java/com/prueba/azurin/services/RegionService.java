@@ -1,4 +1,4 @@
-package com.prueba.azurin.services.impl;
+package com.prueba.azurin.services;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.prueba.azurin.entity.Region;
+import com.prueba.azurin.iservices.IRegionService;
 import com.prueba.azurin.repository.IRegionRepository;
-import com.prueba.azurin.services.IRegionService;
 
 @Service
 public class RegionService implements IRegionService {

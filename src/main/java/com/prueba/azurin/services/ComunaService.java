@@ -1,4 +1,4 @@
-package com.prueba.azurin.services.impl;
+package com.prueba.azurin.services;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.prueba.azurin.entity.Comuna;
 import com.prueba.azurin.entity.Region;
+import com.prueba.azurin.iservices.IComunaService;
 import com.prueba.azurin.repository.IComunaRepository;
-import com.prueba.azurin.services.IComunaService;
 
 @Service
 public class ComunaService implements IComunaService {

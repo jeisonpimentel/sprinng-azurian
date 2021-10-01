@@ -1,4 +1,4 @@
-package com.prueba.azurin.services.controllers;
+package com.prueba.azurin.controllers;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.prueba.azurin.entity.Comuna;
 import com.prueba.azurin.entity.Region;
-import com.prueba.azurin.services.IComunaService;
-import com.prueba.azurin.services.IRegionService;
+import com.prueba.azurin.iservices.IComunaService;
+import com.prueba.azurin.iservices.IRegionService;
 
 @RestController
 @CrossOrigin(origins = {"http://localhost:4200"})
